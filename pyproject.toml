@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "machine-learning-as-a-service"
+version = "0.1.0"
+description = ""
+authors = ["JYasimo <jyasimo@gmail.com>"]
+readme = "README.md"
+packages = [{include = "machine_learning_as_a_service"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "2.0.1"
+jupyterlab = "3.6.3"
+scikit-learn = "1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
