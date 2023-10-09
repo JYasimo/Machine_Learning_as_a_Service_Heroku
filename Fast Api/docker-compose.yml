@@ -1,0 +1,6 @@
+version: '3.7'
+
+services:
+  python_env:
+    image: python:3.9
+    stdin_open: true
